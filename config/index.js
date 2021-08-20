@@ -6,7 +6,7 @@ const path = require('path')
 
 module.exports = {
   dev: {
-    publicPath: process.env.NODE_ENV === "production" ? "/cnodejs/" : "/",
+    publicPath: process.env.NODE_ENV === "production" ? "/cnodejs-website/" : "/",
 
     // Paths
     assetsSubDirectory: 'static',
